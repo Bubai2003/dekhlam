@@ -614,7 +614,7 @@ width:50vw;
   }
 
   }
-/* body {
+body{
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -627,7 +627,7 @@ width:50vw;
     overflow-x: hidden;
     
    
-  } */
+  }
   .body::after{
 content:" ";
 position:absolute;

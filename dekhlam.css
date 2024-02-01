@@ -8,34 +8,7 @@
 /* overflow-x: hidden; */
 }
 
-body {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    overflow-x: hidden;
-    
-   /* position: fixed; */
-  }
-  .body::after{
-content:" ";
-position:absolute;
-background-color: rgba(0, 0, 0, 0.733);
-top:0px;
-left:0px;
-width:100vw;
-height:100vh;
-position:fixed;
-padding:2%;
-z-index: -1;
-overflow: hidden;
-  }
-  
+
   .header {
     text-align: center;
 width:100%;
@@ -641,7 +614,34 @@ width:50vw;
   }
 
   }
-
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.pixground.com/wp-content/uploads/2023/02/Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    
+   /* position: fixed; */
+  }
+  .body::after{
+content:" ";
+position:absolute;
+background-color: rgba(0, 0, 0, 0.733);
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+position:fixed;
+padding:2%;
+z-index: -1;
+overflow: hidden;
+  }
+  
 
 
   .sumna_img{
